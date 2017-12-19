@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(board_position)
-  if board_position.to_i >= 1 && board_position <= 9
+  if board_position.to_i >= 1 && board_position.to_i <= 9
     index = board_position.to_i - 1
   end
 end
