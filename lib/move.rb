@@ -12,10 +12,3 @@ def input_to_index(board_position)
     index = board_position.to_i - 1
   end
 end
-
-def report(pos)
-  res = input_to_index(pos)
-  puts res
-end
-
-report("-1")
