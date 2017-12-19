@@ -11,7 +11,7 @@ def input_to_index(board_position)
   if board_position.to_i >= 1 && board_position.to_i <= 9
     index = board_position.to_i - 1
   end
-  index
+  puts index
 end
 
 input_to_index("4")
