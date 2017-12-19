@@ -20,9 +20,9 @@ def move(board, index, character = "X")
   board
 end
 
-board = [".", ".", ".", ".", ".", ".", ".", ".", "."]
-index = input_to_index("2")
-puts input_to_index("4")
-puts input_to_index("nonsense")
+# board = [".", ".", ".", ".", ".", ".", ".", ".", "."]
+# index = input_to_index("2")
+# puts input_to_index("4")
+# puts input_to_index("nonsense")
 # puts move(board, index)
 # display_board(move(board, index, "O"))
