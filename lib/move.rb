@@ -11,9 +11,11 @@ def input_to_index(board_position)
   if board_position.to_i >= 1 && board_position.to_i <= 9
     index = board_position.to_i - 1
   end
-  puts index
 end
 
-input_to_index("4")
-input_to_index("-1")
-input_to_index("10")
+def report(pos)
+  res = input_to_index(pos)
+  puts res
+end
+
+report("4")
