@@ -18,4 +18,4 @@ def report(pos)
   puts res
 end
 
-report("4")
+report("-1")
