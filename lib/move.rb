@@ -22,5 +22,5 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = input_to_index("3")
-move(board, index)
-display_board(board)
+# move(board, index)
+display_board(move(board, index))
