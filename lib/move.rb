@@ -21,6 +21,6 @@ def move(board, index, character = "X")
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = input_to_index("3")
+index = input_to_index("4")
 # move(board, index)
 display_board(move(board, index))
