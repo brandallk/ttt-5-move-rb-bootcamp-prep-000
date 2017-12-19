@@ -20,6 +20,6 @@ def move(board, index, character = "X")
   board
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = input_to_index("2")
-display_board(move(board, index, "O"))
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# index = input_to_index("2")
+# display_board(move(board, index, "O"))
