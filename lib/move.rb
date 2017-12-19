@@ -14,3 +14,11 @@ def input_to_index(board_position)
     index = nil
   end
 end
+
+def move(board, index, character = "X")
+  puts character
+end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = input_to_index("3")
+move(board, index)
